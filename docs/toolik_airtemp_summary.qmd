@@ -115,6 +115,8 @@ toolik_chlorophyll_plot <- ggplot(data = toolik_chlorophyll,
        x = "Depth", 
        y = "Chlorophyll a concentration  (micrograms per liter)")
 
+toolik_chlorophyll_plot
+
 ggsave(here::here("figs", "toolik_chlorophyll_plot.png"), height = 6,
        width = 7)
 ```
